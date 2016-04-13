@@ -1,0 +1,4 @@
+﻿文件下载网址  =>  文件保存路径
+http://www.yinyuetai.com/{{video.image}}  =>  C:\Users\洛洛君\Desktop\应用软件\扒网页的小工具\look\单页扒站小工具\www.yinyuetai.com\images\{{video.image}}
+http://www.yinyuetai.com/{{image}}  =>  C:\Users\洛洛君\Desktop\应用软件\扒网页的小工具\look\单页扒站小工具\www.yinyuetai.com\images\4dd0d8b26695494898819b1bc8f2bdbd.gif
+http://www.yinyuetai.com/{{item.headImg}}  =>  C:\Users\洛洛君\Desktop\应用软件\扒网页的小工具\look\单页扒站小工具\www.yinyuetai.com\images\{{item.headimg}}

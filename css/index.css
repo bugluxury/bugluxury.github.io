@@ -1,0 +1,62 @@
+.topbanner {
+    /* height: 492px; */
+    overflow: hidden;
+    position: relative;
+}
+.topbanner .bannerlist {
+    width: 2000%;
+}
+.topbanner .bannerlist li {
+    float: left;
+    width: 5%;
+}
+.topbanner .bannerlist li img {
+    display: block;
+    width: 100%;
+}
+.topbanner ol {
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+}
+.topbanner ol li {
+    width: 15px;
+    height: 15px;
+    border-radius: 8px;
+    margin: 0 5px;
+    background-color: #fff;
+    float: left;
+    text-indent: 1000px;
+}
+
+/*content部分start*/
+.content {}
+
+.content .content-hd {
+    height: 80px;
+    padding-top: 20px;
+    border-bottom: 1px solid mediumpurple;
+}
+.content .content-hd .content-hd-fl h3{
+    font-weight: normal;
+    font-size: 22px;
+    color: #669900;
+    padding: 10px 10px 10px 30px;
+}
+
+.content .content-hd .content-hd-fr ul{
+
+}
+.content .content-hd .content-hd-fr ul li {
+    float: left;
+    border-right: 1px dashed #BDBDBD;
+    margin: 10px 0px;
+    padding: 0 13px;
+}
+.content .content-hd .content-hd-fr ul li a {
+    width: 20px;
+    line-height: 20px;
+    font-size: 14px;
+    color: #666666;
+}
+/*content部分end*/

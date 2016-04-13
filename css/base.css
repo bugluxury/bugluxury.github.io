@@ -1,0 +1,100 @@
+/*锟斤拷始锟斤拷锟斤拷签start*/
+body,div,p,ul,li,ol,dl,dd,dt,a,img,input,form,h1,h2,h3,img
+::before,
+::after{
+    margin: 0;
+    padding: 0;
+}
+ul,ol,dl,li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: #CCCCCC;
+}
+em {
+    font-style: normal;
+}
+/*锟斤拷始锟斤拷锟斤拷签end*/
+
+/*锟斤拷锟斤拷锟斤拷式*/
+.wrap {
+    width: 1218px;
+    margin: 0 auto;
+}
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+/*锟斤拷锟斤拷锟斤拷锟斤拷*/
+.clearfix::before,
+.clearfix::after {
+    content: "";
+    display: table;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+    clear: both;
+}
+html,body {
+    width: 100%;
+}
+body {
+    font: 12px/1.5 Tahoma,'\5FAE\8F6F\96C5\9ED1','Microsoft Yahei',"hiragino sans gb", Helvetica, Arial, "\5b8b\4f53", 'sans-serif';
+    color: #666666;
+    background-color: #F2F2F2;
+}
+/*锟斤拷锟斤拷锟斤拷式end*/
+
+/*--topbar锟斤拷锟斤拷start--*/
+.topbar {
+    background: url(../images/topbar_bg.png) repeat-x;
+}
+.topbar h1 {
+    padding: 0px 20px 0;
+}
+.topbar .topbar-menubars li {
+    float: left;
+    padding: 13px 16px 9px;
+}
+.topbar .topbar-menubars li:hover,
+.topbar .topbar-publish:hover{
+    background-color: #050505;
+}
+.topbar .topbar-menubars li:hover a,
+.topbar .topbar-publish:hover a{
+    color: #CCFF99;
+}
+.topbar .topbar-search {
+    width: 216px;
+    height: 30px;
+    background-color: #D8D8D8;
+    border-radius: 15px;
+    margin: 5px 20px;
+    position: relative;
+}
+.topbar .topbar-search button {
+    border: none;
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    width: 16px;
+    height: 17px;
+    background: url(../images/topbar_sprite2.png) no-repeat -223px -1px;
+}
+.topbar .topbar-search .searchbody input {
+    margin: 8px 3px 0 15px;
+    background: none;
+    border: none;
+    color: #AEAEAE;
+    outline-style: none;
+}
+.topbar .topbar-publish {
+    padding: 13px 16px 9px;
+}
+
+
+
+/*--topbar锟斤拷锟斤拷end----*/
